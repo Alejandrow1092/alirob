@@ -34,38 +34,66 @@ body{
 }
 
 .navigation{
-    
-    height: 60px;
+    margin: 0;
+}
+
+.navigation .inf{
+    height: 7vh;
     display: flex;
     justify-content:flex-start;
     align-items: flex-end;
 }
 
-.navigation  a{
+
+.navigation .inf a{
     text-decoration: none;
     color: black; 
     margin: 20px;
 }
 
-.navigation ul{
+.navigation .inf ul{
     text-align: center;
     font-size: 1.3em;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.navigation li{  
+.navigation .inf li{  
     display: inline-block;
     margin: 0px;
     height: 30px;
    
 }
 
-.navigation li:hover{
+.navigation .inf li:hover{
     border-bottom: 5px #005DEA solid;
 } 
 
 
+.navigation .sup{
+    height: 3vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+
+.navigation .sup a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.712); 
+    margin: 0 10px;
+}
+
+.navigation .sup ul{
+    text-align: center;
+    font-size: 0.85em;
+    text-transform: uppercase;
+}
+
+.navigation .sup li{
+    display: inline-block;
+    margin: 0px;
+} 
 
 /*MAIN*/
 
@@ -78,7 +106,7 @@ body{
 /***********************/
 
 footer{
-    background-color: #F5F5F5;
+    background-color: #57575728;
     display: flex;
     flex-wrap: wrap;
     width: 100%;

@@ -1,0 +1,57 @@
+.card-backgd{
+    
+    background-color: rgba(0, 0, 255, 0.075);
+    width: 100%;
+    max-width: 1200px;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.card-contact{
+   
+    background-color: #64A5E1;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#photo{
+    width: 90%;
+}
+
+#photo img{
+   position:relative;
+   margin-left: 30%;
+   width: 40%;
+   height: 20vh;
+   border-radius: 50%;
+}
+
+#photo p{
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+#info{
+    
+    width: 90%;
+}
+
+#info p{
+    margin: 1em auto;
+    width: 90%;
+   
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.cover{
+    z-index: -1;
+    width: 100%;
+    background-color: red;
+}
+
+

@@ -1,0 +1,9 @@
+>>Navbar
+->Optimizar el css, ya que tiene secciones repetitivas
+
+>>Plnatillas
+->Usar ajax para la carga del header y footer
+->¿Como puedo usar motores de plantillas?
+
+>>Responsive
+->Cambiar medidas estaticas

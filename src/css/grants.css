@@ -1,0 +1,30 @@
+.cards{
+   
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-self{
+    background-color: darkgrey;
+    width: 400px;
+    height: 500px;
+}
+
+
+
+figure{
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-self p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
