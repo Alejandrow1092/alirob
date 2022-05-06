@@ -98,7 +98,14 @@ body{
 /*MAIN*/
 
 .slider{
+    background-color: red;
+    width: 100%;
+    height: 85vh;
+}
 
+.slider img{
+    width: 100%;
+    height: 85vh;
 }
 
 /***********************/
