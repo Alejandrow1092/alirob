@@ -1,4 +1,25 @@
 /***************
+Separador de secciones
+*******************/
+
+.container-section{
+    font-size: 3rem;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #005DEA;
+    text-transform: uppercase;
+    hr{
+        height: 1px;
+        background-color: #7D7272;
+        border: none;
+    }
+}
+
+
+
+/***************
 Primer contenedor
 *******************/
 
@@ -147,10 +168,12 @@ Primer contenedor
 /*********************/
 
 #map{
+    
     max-width: 80%;
     margin: 0 auto;
     margin-bottom: 8rem;
     background-color: var(--title_color);
+    /* background-color: tan; */
     height: 45rem;
 
     iframe{
