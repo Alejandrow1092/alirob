@@ -1,0 +1,161 @@
+/***************
+Primer contenedor
+*******************/
+
+:root{
+    --title_color: #005DEA;
+}
+
+.container-fit{
+   /*  background-color: plum; */
+    width: 85%;
+    margin: 0 auto;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec_1{
+    /* background-color: rgba(255, 0, 0, 0.719); */
+    width: 50%;
+    height: 90%;
+    margin: 2rem 0;
+}
+
+#sec_1 #title{
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: var(--title_color);
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+}
+
+#sec_1 #text{
+    font-size: 2rem;
+}
+
+#sec_2{
+   /*  background-color: rgba(0, 0, 255, 0.603); */
+    width: 50%;
+    height: 90%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;   
+}
+
+#sec_2 img{
+    background-color: black;
+    width: 130px;
+    height: 380px;
+}
+
+#imagen2{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    position: relative;
+    margin-bottom: 4rem;
+    /* background-color: red; */
+}
+
+
+/*********************/
+/*Segunda seccion*/
+/*********************/
+
+
+.container-fit1{
+    /* background-color: rgb(214, 3, 3); */
+    
+}
+
+.container figure{
+    background-color: blue;
+    z-index: 1;
+}
+
+.container-fit1 div{
+    position: absolute;
+    z-index: 3;
+    background-color: #c9c5c573;
+    width: 55%;
+    
+    height: 18rem;
+    left: 25%;
+    font-size: 1.7rem;
+}
+
+.container-fit1 #title{
+    color: var(--title_color);
+}
+
+
+/*********************/
+/*Tercera seccion*/
+/*********************/
+
+.container-fit2{
+    /* background-color: rgba(0, 102, 255, 0.445); */
+    height: 45rem;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+    figure{
+        width: 60%;
+        
+        img{
+            margin: 0 auto;
+            filter: drop-shadow(30px 30px 1px #C4C4C4)
+        }
+    }
+    div{
+        background-color: #F5F5F5;
+        width: 40%;
+        height: 80%;
+        font-size: 2rem;
+
+        #title{
+            color: var(--title_color);
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+
+        
+
+    }
+
+    section{
+       /*  background-color: red; */
+        width: 95%;
+        margin: 0 auto;
+        height: 80%;
+        a{
+            color: var(--title_color);
+            margin-top: 10px;
+            
+        }
+    }
+
+}
+
+/*********************/
+/*Cuarta seccion*/
+/*********************/
+
+#map{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+    background-color: var(--title_color);
+    height: 45rem;
+
+    iframe{
+        width: 95%;
+        height: 95%;
+        margin: 1rem auto;
+    }
+}

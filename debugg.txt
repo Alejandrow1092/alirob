@@ -7,3 +7,5 @@
 
 >>Responsive
 ->Cambiar medidas estaticas
+
+>>

@@ -6,7 +6,7 @@ const img = [
     "/src/assets/img/imagen1.jpg",
     "/src/assets/img/imagen2.jpg",
     "/src/assets/img/imagen3.jpg",
-    "https://picsum.photos/1000/1000"
+    "https://picsum.photos/1020/800"
 ];
 
 
