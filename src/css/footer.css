@@ -6,19 +6,28 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 35vh;
+  font-family: "Roboto", sans-serif;
+  /* height: 35vh; */
 }
 
+/***********************/
+/*Parte 1*/
+/***********************/
 #p1 {
+  /* background-color: red; */
   display: flex;
   justify-content: start;
   align-items: center;
   width: 50%;
   height: 200px;
 }
-
 #p1 p {
   margin: 35px;
+}
+#p1 #des {
+  color: #005DEA;
+  font-size: 1.5em;
+  font-size: 2.25rem;
 }
 
 #MCE {
@@ -27,41 +36,65 @@ footer {
   font-weight: bold;
 }
 
-#p1 #des {
-  color: #005DEA;
-  font-size: 1.5em;
-  font-size: 36px;
-}
-
+/***********************/
+/*Parte 2*/
+/***********************/
 #p2 {
+  /* background-color: cadetblue; */
   display: flex;
   justify-content: end;
   align-items: center;
   width: 50%;
   height: 200px;
 }
-
 #p2 #ub {
   color: #005DEA;
   font-size: 1.5em;
+  font-weight: bold;
 }
-
 #p2 #des {
   font-size: 0.9em;
 }
-
 #p2 p {
   margin-right: 50px;
-  font-size: 22px;
 }
 
+/***********************/
+/*Parte 3*/
+/***********************/
 #p3 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-size: 24px;
-  height: 70px;
+  font-size: 1rem;
+  height: 4.375rem;
+}
+
+@media only screen and (max-width: 785px) {
+  #p1 {
+    display: none;
+  }
+
+  #p2 {
+    width: 50%;
+    justify-content: start;
+  }
+  #p2 #ub {
+    font-size: 1.3rem;
+  }
+  #p2 #des {
+    font-size: 0.9rem;
+  }
+  #p2 p {
+    margin: 40px;
+  }
+
+  #p3 {
+    width: 50%;
+    height: 200px;
+    /* background-color: red; */
+  }
 }
 
 /*# sourceMappingURL=footer.css.map */

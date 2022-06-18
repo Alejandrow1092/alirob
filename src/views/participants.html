@@ -6,17 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/botones.css">
+    <link rel="stylesheet"  type="text/css" href="../css/footer.css">
+    <link rel="stylesheet"  type="text/css" href="../css/nav.css">
+    <link rel="stylesheet"  type="text/css" href="../css/participants.css">
     
     <title>Inicio</title>
 </head>
 <body>
     <header class="header">
-        
+        <div class="container" id="menu">
+            <span class="menu-icon" id="menu">Menu</span>
+            <a href="/src/index.html" class="logo">MCE</a>
+            <nav class="navigation" id="navigation">
+                <menu class="sup">
+                    <ul>
+                        <li><a href='/src/views/participants.html'>Participants</a></li>
+                        <li><a href="/src/views/grants.html">Grants</a></li>
+                        <li><a href="/src/views/contact.html">Contact</a></li>
+                    </ul>
+                </menu>
+                <menu class="inf">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Museo</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Inicio</a></li>
+                    </ul>
+                </menu>
+            </nav>
+            
+        </div>
     </header>
 
 
     <main class="main">
         <section class="participants-list">
+            
             <section class="menu-lat">
                 <button id="btn-parts" onclick="aver('t1')">Participants</button>
                 <button id="btn-parts" onclick="aver('t2')">Students</button>
@@ -24,37 +50,40 @@
             </section>
 
             <div id="t1">
-                <table border="1px" id="tabla1">
-                    <tr>
-                        <td>Genaro Juarez Martinez</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Andrew Adamatzky</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
-                    </tr>
-                    <tr>
-                        <td>Luz Noe Oliva Moreno</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Ivan Zelinka</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
-                    </tr>
-                    <tr>
-                        <td>Adriana de la Paz Sanchez Moreno</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Guanrong Chen</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
-                    </tr>
-                    <tr>
-                        <td>Margarita Elizabeth Gomez Mayorga</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Rolf Hoffman</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
-                    </tr>
-                    <tr>
-                        <td>Miguel Angel Maldonado Muñoz</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Dmitry Zaitsev</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
-                    </tr>
+                <table  id="tabla1">
+                    <tbody>
+                        <tr>
+                            <td id="nombre">Genaro Juarez Martinez</td>
+                            <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                            <td id="nombre">Andrew Adamatzky</td>
+                            <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        </tr>
+                        <tr>
+                            <td>Luz Noe Oliva Moreno</td>
+                            <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                            <td>Ivan Zelinka</td>
+                            <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        </tr>
+                        <tr>
+                            <td>Adriana de la Paz Sanchez Moreno</td>
+                            <td id="imagen"> <img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                            <td>Guanrong Chen</td>
+                            <td id="imagen" ><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        </tr>
+                        <tr>
+                            <td>Margarita Elizabeth Gomez Mayorga</td>
+                            <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                            <td>Rolf Hoffman</td>
+                            <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        </tr>
+                        <tr>
+                            <td>Miguel Angel Maldonado Muñoz</td>
+                            <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                            <td>Dmitry Zaitsev</td>
+                            <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        </tr>
+                    </tbody>
+                    
                     <!-- <tr>
                         <td>Rosalba Galvan Guerra</td>
                         <td></td>
@@ -68,36 +97,36 @@
             
             <div id="t2">
                 
-                <table border="1px" id="tabla2">
+                <table  id="tabla2">
                     <tr>
-                        <td>Genaro Juarez Martinez</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Andrew Adamatzky</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Genaro Juarez Martinez</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Andrew Adamatzky</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <tr>
-                        <td>Luz Noe Oliva Moreno</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Ivan Zelinka</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Luz Noe Oliva Moreno</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Ivan Zelinka</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <tr>
-                        <td>Adriana de la Paz Sanchez Moreno</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Guanrong Chen</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Adriana de la Paz Sanchez Moreno</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Guanrong Chen</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <tr>
-                        <td>Margarita Elizabeth Gomez Mayorga</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Rolf Hoffman</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Margarita Elizabeth Gomez Mayorga</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Rolf Hoffman</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <tr>
-                        <td>Miguel Angel Maldonado Muñoz</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Dmitry Zaitsev</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Miguel Angel Maldonado Muñoz</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Dmitry Zaitsev</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <!-- <tr>
                         <td>Rosalba Galvan Guerra</td>
@@ -112,36 +141,36 @@
             
             <div id="t3">
                 
-                <table border="1px" id="tabla3">
+                <table id="tabla3">
                     <tr>
-                        <td>Genaro Juarez Martinez</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Andrew Adamatzky</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Genaro Juarez Martinez</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Andrew Adamatzky</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <tr>
-                        <td>Luz Noe Oliva Moreno</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Ivan Zelinka</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Luz Noe Oliva Moreno</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Ivan Zelinka</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <tr>
-                        <td>Adriana de la Paz Sanchez Moreno</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Guanrong Chen</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Adriana de la Paz Sanchez Moreno</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Guanrong Chen</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <tr>
-                        <td>Margarita Elizabeth Gomez Mayorga</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Rolf Hoffman</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Margarita Elizabeth Gomez Mayorga</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Rolf Hoffman</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <tr>
-                        <td>Miguel Angel Maldonado Muñoz</td>
-                        <td><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
-                        <td>Dmitry Zaitsev</td>
-                        <td><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
+                        <td id="nombre">Miguel Angel Maldonado Muñoz</td>
+                        <td id="imagen"><img src="../assets/img/escudo_escom.png" alt="ESCOM" width="100px" height="auto"></td>
+                        <td id="nombre">Dmitry Zaitsev</td>
+                        <td id="imagen"><img src="../assets/img/uwe.png" alt="uwe" width="200px" height="auto"></td>
                     </tr>
                     <!-- <tr>
                         <td>Rosalba Galvan Guerra</td>
@@ -153,6 +182,7 @@
                     </tr> -->
                 </table>
             </div>
+
        </section>
     </main>
 
@@ -161,14 +191,14 @@
 
     </footer>
 
-    <script src="src/js/index.js"></script>
-    <script src="src/js/participants.js"></script>
+    <script src="../js/participants.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(function(){
-            $(".header").load("partials/header.html");
+            //$(".header").load("partials/header.html");
             $(".footer").load("partials/footer.html");
         });
     </script>
+    <script src="../js/nav.js"></script>
 </body>
 </html>

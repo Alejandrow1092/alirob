@@ -1,21 +1,12 @@
-#btn-parts{
-    background-color:steelblue;
-    width: 100px;
-    height: 60px;
-    color: white;
+#btn-parts {
+  background-color: steelblue;
+  width: 100px;
+  height: 60px;
+  color: white;
 }
 
-#t1{
-   background-color:lightcoral;
-   display: block;
+#btn-parts:hover {
+  background-color: rgba(70, 131, 180, 0.555);
 }
 
-#t2{
-    background-color:rgb(147, 240, 128);
-    display: none;
-}
-
-#t3{
-    background-color:rgb(128, 180, 240);
-    display: none;
-}
+/*# sourceMappingURL=botones.css.map */

@@ -1,4 +1,3 @@
-//alert("hola")
 
 //se activa junto con la venta al cargar
 
@@ -10,15 +9,16 @@ const img = [
 ];
 
 
+let menuActive=0;
 
 window.addEventListener('load', () =>{
-    console.log("el contenido a cargado");
+    console.log("el contenido a cargado"); 
 
     let indice=0;
     let tam = img.length - 1;
 
     const cambiaImg=()=>{
-        console.log(indice)
+        //console.log(indice)
         document.getElementById('slider').src = img[indice]
         if(indice<tam){
             indice++;
@@ -31,3 +31,25 @@ window.addEventListener('load', () =>{
     setInterval(cambiaImg, 4000)
     
 })
+
+
+
+
+
+/* const hola=()=>{
+    if(menuActive==1){
+        document.getElementById("navigation").style.display="none";
+        menuActive=0;
+    }
+    else{
+        console.log("hola");
+        document.getElementById("navigation").style.display="block";
+        menuActive=1;
+    }
+} */
+
+/* 
+$(function(){
+    $(".header").load("views/partials/header.html");
+    $(".footer").load("views/partials/footer.html");
+}); */

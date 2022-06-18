@@ -6,12 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet"  type="text/css" href="../css/footer.css">
+    <link rel="stylesheet"  type="text/css" href="../css/nav.css">
 
     <title>Inicio</title>
 </head>
 <body>
     <header class="header">
-        
+        <div class="container" id="menu">
+            <span class="menu-icon" id="menu">Menu</span>
+            <a href="/src/index.html" class="logo">MCE</a>
+            <nav class="navigation" id="navigation">
+                <menu class="sup">
+                    <ul>
+                        <li><a href='/src/views/participants.html'>Participants</a></li>
+                        <li><a href="/src/views/grants.html">Grants</a></li>
+                        <li><a href="/src/views/contact.html">Contact</a></li>
+                    </ul>
+                </menu>
+                <menu class="inf">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Museo</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Inicio</a></li>
+                    </ul>
+                </menu>
+            </nav>
+            
+        </div>
     </header>
 
 
@@ -30,14 +54,15 @@
                     <p>Genaro Juarez Martinez</p>
                 </div>
                 <div id="info">
-                    <p>
+                    <p id="txt">
                         Laboratorio Internacional de ciencias
-                        de la computacion (LCOOMP)
+                        de la computacion (LCOOMP) <br> <br>
+                        Laboratorio de vida Artifical y Robotica (ALIROB)
                     </p>
-                    <p>Laboratorio de vida Artifical y Robotica (ALIROB)</p>
-                    <p>Escuela Superior de Computo</p>
+                    
+                    <p id="escom">Escuela Superior de Computo</p>
                     <br>
-                    <p>
+                    <p id="ub1">
                         Instituto Politecnico Nacional <br>
                         AV. Juan de Dios Batiz S/N<br>
                         Col. Lindavista <br>
@@ -45,7 +70,7 @@
                         
                     </p>
 
-                    <p>
+                    <p id="ub2">
                         Salon 1007. Edificio 1. <br>
                         Tel. +52 557296000 Ext. 52067 <br>
                         E-MAIL: <a href="mailto:alirob.ipn@gmail.com">alirob.ipn@gmail.com</a>    
@@ -65,7 +90,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(function(){
-            $(".header").load("partials/header.html");
+           // $(".header").load("partials/header.html");
             $(".footer").load("partials/footer.html");
         });
     </script>

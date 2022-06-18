@@ -6,12 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/grants.css">
+    <link rel="stylesheet"  type="text/css" href="../css/footer.css">
+    <link rel="stylesheet"  type="text/css" href="../css/nav.css">
     
     <title>Inicio</title>
 </head>
 <body>
     <header class="header">
-       
+        <div class="container" id="menu">
+            <span class="menu-icon" id="menu">Menu</span>
+            <a href="/src/index.html" class="logo">MCE</a>
+            <nav class="navigation" id="navigation">
+                <menu class="sup">
+                    <ul>
+                        <li><a href='/src/views/participants.html'>Participants</a></li>
+                        <li><a href="/src/views/grants.html">Grants</a></li>
+                        <li><a href="/src/views/contact.html">Contact</a></li>
+                    </ul>
+                </menu>
+                <menu class="inf">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Museo</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Inicio</a></li>
+                    </ul>
+                </menu>
+            </nav>
+            
+        </div>
     </header>
 
 
@@ -43,7 +67,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(function(){
-            $(".header").load("partials/header.html");
+            //$(".header").load("partials/header.html");
             $(".footer").load("partials/footer.html");
         });
     </script>
