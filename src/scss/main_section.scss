@@ -28,8 +28,8 @@ Primer contenedor
 }
 
 .container-fit{
-   /*  background-color: plum;  */
-    width: 85%;
+    background-color: plum; 
+    width: 87%;
     /* min-width: 900px; */
     margin: 0 auto;
     min-height: 35rem;
@@ -49,14 +49,15 @@ Primer contenedor
 
 
 #sec_1{
-    /* background-color: rgba(255, 0, 0, 0.719); */
-    width: 50%;
-    height: 90%;
+    background-color: rgba(255, 0, 0, 0.719);
+    width: 30rem;
+    height: 30rem;
     margin: 2rem 0;
+    padding: 1rem;
 }
 
 #sec_1 #title{
-    margin-top: 5rem;
+    margin-top: 2rem;
     font-size: 2rem;
     color: var(--title_color);
     text-transform: uppercase;
@@ -64,12 +65,14 @@ Primer contenedor
 }
 
 #sec_1 #text{
-    font-size: 2rem;
+    font-size: 1.6rem;
+    text-align: justify;
+    padding: 10px;
 }
 
 #sec_2{
-   /*  background-color: rgba(0, 0, 255, 0.603); */
-    width: 50%;
+    background-color: rgba(0, 0, 255, 0.603);
+    width: 30rem;
     /* min-width: 900px; */
     height: 90%;
     display: flex;
@@ -103,7 +106,7 @@ Primer contenedor
 .container-fit1{
     /* background-color: rgb(214, 3, 3);  */
     width: 100%;
-    height: auto;
+    min-height: 37rem;
     overflow: hidden;
 }
 
@@ -142,48 +145,56 @@ Primer contenedor
 
 .container-fit2{
     /* background-color: rgba(0, 102, 255, 0.445);  */
-    min-height: 45rem; /* Revisar esta medida para cuando sea responsive */
+    min-height: 45rem;  /*Revisar esta medida para cuando sea responsive */
     width: 95%;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content:space-around;
-   
-    
+    background-color: red;
 
     figure{
-        min-width: 60%;
-        height: auto;
+        width: 32rem;
+        height: 80%;
        /*  background-color: red; */
         img{
             margin: 0 auto;
-            filter: drop-shadow(30px 30px 1px #C4C4C4)
+            filter: drop-shadow(20px 20px 1px #C4C4C4)
         }
     }
     div{
+        margin-top: 50px;
         background-color: #F5F5F5;
-        width: 40%;
+        width: 32rem;
         height: 80%;
-        font-size: 2rem;
+        font-size: 1.7rem;
 
         #title{
             color: var(--title_color);
             margin-top: 4rem;
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
+            font-size: 1.8rem;
         }
     }
 
     section{
-       /*  background-color: red;  */
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
-       /*  background-color: red; */
         margin-bottom: 90px;
+        padding-left: 25px;
+        padding-right: 25px;
         height: 80%;
-        a{
+        p a{
             color: var(--title_color);
+            text-align: right;
             margin-top: 10px;
+        }
+        #texto1{
+            text-align: justify;
+        }
+        #right-text{
+            text-align: right;
         }
     }
 
@@ -225,15 +236,13 @@ Primer contenedor
     .container-fit2{
         div{
             margin-top: 4rem;
-            width: 80%;
+            width: 85%;
         }
         figure{
-            /* background-color: red; */
             
             img{
-                background-color: blue;
                 margin-left: 3rem;
-                width: 80%;
+                width: 85%;
             }
         }
     }
@@ -250,12 +259,12 @@ Primer contenedor
         width: 85%;
         height: auto;
         
-        #text{
+        /* #text{
             font-size: 1rem;
         }
         #title{
             margin-top: 2rem;
-        }
+        } */
     }
     #sec_2{
        
