@@ -1,0 +1,103 @@
+@use 'modules/base';
+
+//mixin
+#title{
+    @include base.title-section();
+}
+
+
+.card-contact{
+    background-color: rgb(233, 227, 227);
+    //width: 25rem;
+    //width: 80%;
+    max-width: 1000px;
+    min-width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap:nowrap;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 1px 2px 10px 7px rgba(0,0,0,0.37); 
+    box-shadow: 1px 2px 10px 7px rgba(0,0,0,0.37);
+
+    hr{
+        border-top: 1px black solid;
+        width: 90%;
+    }
+}
+
+@media only screen and(max-width: 871px){
+    .card-contact{
+        width: 90%;
+    }
+    
+    #imagen-lat{
+        display: none;
+    }
+    #info-lat{
+        
+        width: 100%;
+    }
+    
+}
+
+#imagen-lat{
+    //310*600
+    background-color: red;
+    width: 260px;
+    height: 100%;
+}
+
+#info-lat{
+    width: 75%;
+    height: 100%;
+    background-color:#F5F5F5;
+}
+
+#info{
+    padding-left: 10%;
+    padding-top: 50px;
+    #nombre{
+        font-size: 2.7rem;
+        margin-bottom: 10px;
+    }
+    #sub-nombre{
+        margin-top: 1rem;
+        p{
+            text-transform: capitalize;
+            font-style: italic;
+        }
+    }
+    #titulares{
+        text-align: center;
+        //background-color: red;
+        margin-top: 4rem;
+        margin-bottom: 60px;
+        line-height: 4.5rem;
+        #ipn{
+            margin-top: 2rem;
+            font-size: 2.5rem;
+            span{
+                font-weight: bold;
+                color: base.$ipn-color;
+            }
+        }
+        #escom{
+            font-size: 2.5rem;
+            span{
+                font-weight: bold;
+                color: base.$title-color;
+                
+            }
+        }
+    }
+    #indicaciones{
+        margin-top: 1rem;
+        line-height: 1.5rem;
+        span{
+            font-weight: bold;
+        }
+    }
+}

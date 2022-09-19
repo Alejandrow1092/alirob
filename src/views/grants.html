@@ -8,29 +8,43 @@
     <link rel="stylesheet" href="../css/grants.css">
     <link rel="stylesheet"  type="text/css" href="../css/footer.css">
     <link rel="stylesheet"  type="text/css" href="../css/nav.css">
+
+    <!-- Fuentes -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Fuentes -->
     
-    <title>Inicio</title>
+    <title>Grants</title>
 </head>
 <body>
     <header class="header">
         <div class="container" id="menu">
-            <span class="menu-icon" id="menu">Menu</span>
-            <a href="/src/index.html" class="logo">MCE</a>
+            
+            <a href="/" class="logo">MCE</a>
+
+            <div class="menu-icon" id="menu">
+                <div class="menu-btn__burger"></div>
+            </div>
+
+            
+          <!--   <span class="menu-icon" id="menu">Menu</span> -->
             <nav class="navigation" id="navigation">
                 <menu class="sup">
                     <ul>
-                        <li><a href='/src/views/participants.html'>Participants</a></li>
-                        <li><a href="/src/views/grants.html">Grants</a></li>
-                        <li><a href="/src/views/contact.html">Contact</a></li>
+                        <li><a href='/participants'>Participants</a></li>
+                        <li><a href="/grants">Grants</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </menu>
                 <menu class="inf">
                     <ul>
-                        <li><a href="#">Inicio</a></li>
+                        <li><a href="/">Inicio</a></li>
                         <li><a href="#">Museo</a></li>
-                        <li><a href="#">Galeria</a></li>
+                        <li><a href="/galeria">Galeria</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Inicio</a></li>
                     </ul>
                 </menu>
             </nav>
@@ -40,20 +54,78 @@
 
 
     <main class="main">
+        <section id="title">
+            <p>GRANTS</p>
+        </section>
+
         <section class="cards">
             <div class="card-self">
-                <figure>
-                    <img src="https://picsum.photos/200/300" alt="photo">
-                </figure>
-               
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus est quaerat quisquam ipsa, blanditiis delectus, eum beatae ea dolores libero quas odio incidunt at</p>
-            </div>
-            <div class="card-self">
-                <figure>
-                    <img src="https://picsum.photos/200/300" alt="photo">
-                </figure>
+                <section id="imagen">
+                    <figure>
+                        <img src="https://picsum.photos/352/300" alt="photo">
+                    </figure>
+                </section>
                 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus est quaerat quisquam ipsa, blanditiis delectus, eum beatae ea dolores libero quas odio incidunt at</p>
+               <section id="des">
+                    <p id="title-card">
+                        Proyecto Transdiciplinario IPN 
+                    </p><br/>
+                    <p id="des-card">
+                        Sistema de vigilancia autónomo y dinámico 
+                        en las escuelas del IPN a trvés de robots basados en sistemas complejos
+                    </p>
+                    <br/>
+
+                    <hr>
+                    
+                        <table>
+                            <thead>
+                                <th id="num">Núm</th>
+                                <th>Ubicacion</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>20170299</td>
+                                    <td>México, 2017-2018</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    
+               </section>
+                
+            </div>
+
+            <div class="card-self">
+                <section id="imagen">
+                    <figure>
+                        <img src="https://picsum.photos/352/300" alt="photo">
+                    </figure>
+                </section>
+                <section id="des">
+                    <p id="title-card">
+                        Proyecto de Investigación IPN
+                    </p>
+                    <br/>
+                    <p id="des-card">
+                        Control de sistemas complejos a través de medios no lineales
+                        para la solución de movilidad poblacional
+                    </p> 
+                    <br>
+                    <hr>
+                    <table>
+                        <thead>
+                            <th id="num">Núm</th>
+                            <th>Ubicacion</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>20196419</td>
+                                <td>México, 2019</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                
             </div>
         </section>
     </main>
@@ -63,13 +135,14 @@
         
     </footer>
 
-    <script src="src/js/index.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(function(){
             //$(".header").load("partials/header.html");
-            $(".footer").load("partials/footer.html");
+            $(".footer").load("/views/partials/footer.html");
         });
     </script>
+    <script src="../js/nav.js"></script>
 </body>
 </html>

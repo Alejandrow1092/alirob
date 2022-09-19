@@ -8,4 +8,34 @@
 >>Responsive
 ->Cambiar medidas estaticas
 
->>
+
+
+DEBUGGING
+-----------------------------------------------------------------
+
+>>Agregar a todas las vistas las fuentes correctas xxxxxxxxxxxxxxxx
+
+>>Cargar el footer a todas las vistas   xxxxxxxxxxxxxxxxxxxxxxxxx
+
+>>Cargar el mismo header a todas las vistas xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+>>Dejar presentable todas las vistas, con su version responsiva. Terminar de ajustarlas
+
+>>Eliminar codigo inecesario de los html, buscar reutilizar solo el codigo necesario
+mediante las plantillas
+>>Generalizar los titulos de las pestañas como contact y grants... XXXXXXXXXXXXXXXXXXXXXXXXXx
+
+>>GALERIA -- Arreglar le texto que se ve lijeramente xxxxxxxxxxxxxxxxxxxxxxxx
+>>Montar todas las fotos primero en la seccion de galeria
+
+----------------------------------------------------------
+
+
+
+POR REALIZAR
+---------------------------------------------------------
+
+
+>>linea del tiempo en la parte de museo con React
+
+>>Realizar la pestaña de about

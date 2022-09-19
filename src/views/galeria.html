@@ -11,6 +11,15 @@
     <link rel="stylesheet"  type="text/css" href="../css/nav.css">
     <link rel="stylesheet" type="text/css" href="../css/gallery.css">
 
+
+    <!-- Fuentes -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Fuentes -->
+
     <title>Galeria</title>
 </head>
 <body>
@@ -19,7 +28,7 @@
     <header class="header">
         <div class="container" id="menu">
             
-            <a href="/src/index.html" class="logo">MCE</a>
+            <a href="/" class="logo">MCE</a>
 
             <div class="menu-icon" id="menu">
                 <div class="menu-btn__burger"></div>
@@ -30,16 +39,16 @@
             <nav class="navigation" id="navigation">
                 <menu class="sup">
                     <ul>
-                        <li><a href='/src/views/participants.html'>Participants</a></li>
-                        <li><a href="/src/views/grants.html">Grants</a></li>
-                        <li><a href="/src/views/contact.html">Contact</a></li>
+                        <li><a href='/participants'>Participants</a></li>
+                        <li><a href="/grants">Grants</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </menu>
                 <menu class="inf">
                     <ul>
-                        <li><a href="#">Inicio</a></li>
+                        <li><a href="/">Inicio</a></li>
                         <li><a href="#">Museo</a></li>
-                        <li><a href="#">Galeria</a></li>
+                        <li><a href="/galeria">Galeria</a></li>
                         <li><a href="#">About</a></li>
                     </ul>
                 </menu>
@@ -141,7 +150,7 @@
     <script>
         $(function(){
             //$(".header").load("views/partials/header.html");
-            $(".footer").load("partials/footer.html");
+            $(".footer").load("/views/partials/footer.html");
         });
     </script>
     <script src="../js/nav.js"></script>

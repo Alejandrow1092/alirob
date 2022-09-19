@@ -1,0 +1,23 @@
+#btn-parts {
+  background-color: steelblue;
+  width: 6rem;
+  height: 3.3rem;
+  color: white;
+  border: 0.1px rgba(128, 128, 128, 0.356) solid;
+}
+
+.mr {
+  margin-left: 1rem;
+}
+
+#btn-parts:hover {
+  background-color: rgba(70, 131, 180, 0.555);
+}
+
+@media only screen and (max-width: 790px) {
+  .mr {
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=botones.css.map */

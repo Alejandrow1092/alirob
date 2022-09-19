@@ -8,29 +8,44 @@
     <link rel="stylesheet" href="../css/contacts.css">
     <link rel="stylesheet"  type="text/css" href="../css/footer.css">
     <link rel="stylesheet"  type="text/css" href="../css/nav.css">
+    
+    <!-- Fuentes -->
 
-    <title>Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Fuentes -->
+
+
+    <title>Contact</title>
 </head>
 <body>
     <header class="header">
         <div class="container" id="menu">
-            <span class="menu-icon" id="menu">Menu</span>
-            <a href="/src/index.html" class="logo">MCE</a>
+            
+            <a href="/" class="logo">MCE</a>
+
+            <div class="menu-icon" id="menu">
+                <div class="menu-btn__burger"></div>
+            </div>
+
+            
+          <!--   <span class="menu-icon" id="menu">Menu</span> -->
             <nav class="navigation" id="navigation">
                 <menu class="sup">
                     <ul>
-                        <li><a href='/src/views/participants.html'>Participants</a></li>
-                        <li><a href="/src/views/grants.html">Grants</a></li>
-                        <li><a href="/src/views/contact.html">Contact</a></li>
+                        <li><a href='/participants'>Participants</a></li>
+                        <li><a href="/grants">Grants</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </menu>
                 <menu class="inf">
                     <ul>
-                        <li><a href="#">Inicio</a></li>
+                        <li><a href="/">Inicio</a></li>
                         <li><a href="#">Museo</a></li>
-                        <li><a href="#">Galeria</a></li>
+                        <li><a href="/galeria">Galeria</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Inicio</a></li>
                     </ul>
                 </menu>
             </nav>
@@ -40,59 +55,59 @@
 
 
     <main class="main">
-
-        <section class="card-backgd">
-            <!-- <section class="cover">
-                <img src="https://picsum.photos/200/300" alt="photo">
-                <img src="https://picsum.photos/200/300" alt="photo">
-                <img src="https://picsum.photos/200/300" alt="photo">
-                <img src="https://picsum.photos/200/300" alt="photo">
-            </section> -->
-            <section class="card-contact">
-                <div id="photo">
-                    <img src="https://picsum.photos/200/300" alt="photo">
-                    <p>Genaro Juarez Martinez</p>
-                </div>
-                <div id="info">
-                    <p id="txt">
-                        Laboratorio Internacional de ciencias
-                        de la computacion (LCOOMP) <br> <br>
-                        Laboratorio de vida Artifical y Robotica (ALIROB)
-                    </p>
-                    
-                    <p id="escom">Escuela Superior de Computo</p>
-                    <br>
-                    <p id="ub1">
-                        Instituto Politecnico Nacional <br>
-                        AV. Juan de Dios Batiz S/N<br>
-                        Col. Lindavista <br>
-                        C.P 07738 - Mexico DF <br>
-                        
-                    </p>
-
-                    <p id="ub2">
-                        Salon 1007. Edificio 1. <br>
-                        Tel. +52 557296000 Ext. 52067 <br>
-                        E-MAIL: <a href="mailto:alirob.ipn@gmail.com">alirob.ipn@gmail.com</a>    
-                    </p>
-                    
-                </div>
-            </section>
+        <section id="title">
+            <p>CONTACT</p>
         </section>
-        
+
+        <sction class="card-contact">
+            <div id="imagen-lat">
+                <img src="https://picsum.photos/260/550" alt="photo-lateral">
+            </div>
+            <div id="info-lat">
+                <div id="info">
+                    <p id="nombre">Genaro Juarez Martinez</p>
+                    <hr>
+                    <div id="sub-nombre">
+                        <p>
+                            Laboratorio Internacional de ciencias
+                            de la computacion (LCOOMP) 
+                        </p>
+                        <p>
+                            Laboratorio de vida Artifical y Robotica (ALIROB)
+                        </p>
+                    </div>
+                    
+                    <div id="titulares">
+                        <p id="ipn"><span>I</span>instituto <span>P</span>olitécnico <span>N</span>acional </p>   
+                        <p id="escom"><span>E</span>scuela <span>S</span>uperior de <span>C</span>ómputo</p>
+                 
+                    </div>
+                
+                    <hr>
+
+                    <div id="indicaciones">
+                        <p><span>Ubicacion:</span> Salon 1007. Edificio 1. </p>
+                        <p><span>Tel:</span> +52 557296000 Ext. 52067</p>
+                        <p><span>E-mail:</span><a href="mailto:alirob.ipn@gmail.com">alirob.ipn@gmail.com</a></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
     <footer class="footer">
     </footer>
 
-    <script src="src/js/index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(function(){
            // $(".header").load("partials/header.html");
-            $(".footer").load("partials/footer.html");
+           $(".footer").load("/views/partials/footer.html");
         });
     </script>
+    <script src="../js/nav.js"></script>
 </body>
 </html>
